@@ -1,0 +1,78 @@
+@media screen and (max-width: 890px){
+
+/* sidebar */
+
+.sidebar__avatar {
+    width: 100px;
+}
+.sidebar__links a {
+    font-size: 1rem;
+}
+
+/* grafico */
+.dadosDolar,
+.dadosIene,
+.dadosEuro {
+    width: 80%;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.grafico {
+    width: 100%;
+}
+    
+.grafico__titulo h2 {
+    font-size: 1.2rem;
+}
+
+}
+
+@media screen and (max-width: 440px){
+
+    .cabecalho{
+        width: 100vw;
+        font-size: .8rem;
+        justify-content: space-around;
+    }
+
+    .img-menu{
+        display: block;
+        margin-right: 20px;
+        width: 50px;
+    }
+
+    /* sidebar */
+    .sidebar{
+       display: none;
+       padding: 5em 2rem 5em 2rem;
+       position: absolute;
+    }
+
+    .sidebar__avatar {
+        width: 100px;
+    }
+    .sidebar__links a {
+        font-size: 1rem;
+    }
+    
+    /* main */
+    .dados{
+        display: flex;
+        width: 100vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* grafico */
+    .dadosDolar,
+    .dadosIene,
+    .dadosEuro {
+        width: 90vw;
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+}
